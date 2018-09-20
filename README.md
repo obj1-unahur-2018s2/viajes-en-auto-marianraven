@@ -1,7 +1,8 @@
 # Viajes en auto
 
 La cooperativa de remiseros de Doctor Olaechea nos pide que le armemos un programa para manejar cuánto cobrar los viajes.
-La cooperativa pacta con cada cliente el precio por kilómetro que le va a cobrar. Estos son los valores que arregló con algunos clientes
+La cooperativa pacta con cada cliente el precio por kilómetro que le va a cobrar. 
+Estos son los valores que arregló con algunos clientes
 - **Ludmila**: 18 pesos el kilómetro.
 - **Ana María**: 30 pesos el kilómetro.
 - **Teresa**: 22 pesos el kilómetro.
@@ -10,7 +11,8 @@ A partir de estos valores, cada chofer tiene un margen de decisión sobre cuánt
 - **Roxana** le cobra a cada cliente el precio por kilómetro que pactó con la cooperativa sin variaciones.
 - **Gabriela** le aumenta un 20%, porque su auto de alta gama. 
 - **Mariela** no aplica recargo, pero establece un mínimo de 50 pesos el viaje.
-- **Juana** por su parte, cobra 100 pesos hasta 8 kilómetros, y 200 pesos si son más de 8 kilómetros. A Juana no le importa lo que pactó la agencia, le cobra lo mismo a todos.
+- **Juana** por su parte, cobra 100 pesos hasta 8 kilómetros, y 200 pesos si son más de 8 kilómetros.
+ A Juana no le importa lo que pactó la agencia, le cobra lo mismo a todos.
 
 Veamos cuánto cobra cada chofer un viaje de 10 kilómetros.
 - _Roxana_: a Ludmila 180 pesos (18 * 10), a Ana María 300, a Teresa 220.
@@ -26,7 +28,8 @@ Si el viaje es de 2 kilómetros, los valores son estos:
 
 <br>
 
-Se pide representar a los choferes y a los clientes, de forma tal de poder preguntarle a un chofer cuánto le cobra a un determinado cliente por un viaje, del cual se indican los kilómetros.
+Se pide representar a los choferes y a los clientes, de forma tal de poder preguntarle
+ a un chofer cuánto le cobra a un determinado cliente por un viaje, del cual se indican los kilómetros.
 P.ej. `roxana.precioViaje(ludmila,10)` debe devolver 180.
 
 <br>
